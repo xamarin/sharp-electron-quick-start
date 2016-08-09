@@ -8,7 +8,7 @@ const BrowserWindow = electron.BrowserWindow
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
 
-require('../../Tools/electron-dotnet').Register();
+require('electron-dotnet').Register();
 
 function createWindow () {
   // Create the browser window.
